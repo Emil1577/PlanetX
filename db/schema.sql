@@ -1,3 +1,2 @@
 DROP DATABASE IF EXISTS planetx_db;
-
 CREATE DATABASE planetx_db;
