@@ -16,6 +16,8 @@ console.log(cloudinary.config().cloud_name);
 const app = express();
 const PORT = process.env.PORT || 3001;
 
+//Need to do this in terminal for jawsdb "heroku addons:create jawsdb" in Heroku
+
 const hbs = exphbs.create({ helpers });
 
 const sess = {
